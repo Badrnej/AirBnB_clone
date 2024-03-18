@@ -1,0 +1,45 @@
+
+.places .amenities h2 {
+    padding: 5% 0 5% 0;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.places .amenities>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.places .amenities>ul li {
+    background-size: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    line-height: 25px;
+}
+
+.reviews {
+    margin-bottom: 5%;
+}
+
+.places .reviews>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.places .reviews ul li h3 {
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.places .reviews ul li p {
+    padding-bottom: 5%;
+    margin-top: 0px;
+}

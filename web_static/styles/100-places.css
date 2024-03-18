@@ -1,0 +1,69 @@
+
+ article .amenities, .reviews{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.article_subtitle {
+	font-size: 16px;
+	text-align: left;
+	width: 100%;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+article ul {
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+article li {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: flex-start;
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+article h3 {
+	display: block;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+
+}
+
+.tv_icon {
+	display: inline-block;
+	background-image: url("../images/icon_tv.png");
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.wifi_icon {
+	display: inline-block;
+    background-image: url("../images/icon_wifi.png");
+    background-size: cover;
+	width: 20px;
+    height: 20px;
+	margin-right: 10px;
+}
+
+.pet_icon {
+	display: inline-block;
+    background-image: url("../images/icon_pets.png");
+	background-size: cover;
+    width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
